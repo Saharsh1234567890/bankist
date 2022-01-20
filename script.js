@@ -36,7 +36,14 @@ const account5 = {
   pin: 123456,
 }
 
-const accounts = [account1, account2, account3, account4, account5];
+const account6 = {
+  owner: 'Nazeer Aariz Omar',
+  movements: [500],
+  interestRate: 1,
+  pin: 198010,
+}
+
+const accounts = [account1, account2, account3, account4, account5, account6];
 
 // Varibles
 const labelWelcome = document.querySelector('.welcome');
