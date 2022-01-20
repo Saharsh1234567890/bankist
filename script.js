@@ -29,7 +29,14 @@ const account4 = {
   pin: 42007,
 };
 
-const accounts = [account1, account2, account3, account4];
+const account5 = {
+  owner: 'Upendra Varanasi',
+  movements: [500],
+  interestRate: 1,
+  pin: 123456,
+}
+
+const accounts = [account1, account2, account3, account4, account5];
 
 // Varibles
 const labelWelcome = document.querySelector('.welcome');
